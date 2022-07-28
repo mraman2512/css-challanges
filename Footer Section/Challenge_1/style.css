@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.heading {
+    position: relative;
+    top: 500px;
+    margin: 0px 170px;
+    /* left: 170px; */
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px;
+    justify-content: space-between;
+    position: relative;
+    top: 380px;
+}
+
+.services a, .social-media  a, .links a, .details a  {
+    color: #000;
+    text-decoration: none;
+}
+
+
+footer {
+    position: fixed;
+    padding: 10px 0px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

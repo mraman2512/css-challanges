@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    background-color: #15172B;
+    width: 350px;
+    margin: 100px auto;
+    
+}
+.title {
+    font-size: 35px;
+    padding: 30px;
+}
+
+.subtitle {
+    font-size: 15px;
+    padding: 0px 0px  40px 30px;
+    margin-top: -10px;
+}
+.input{
+    width: 80%;
+    margin: 10px 30px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #303246;
+    border: none;
+}
+.placeholder {
+    position: relative;
+    bottom: 45px;
+    left: 50px;
+    color: #716e6e;
+}
+.submit {
+    width: 80%;
+    margin: 30px;
+    padding: 15px;
+    background-color: #0088DE;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+}

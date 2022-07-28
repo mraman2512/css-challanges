@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    text-decoration: none;
+  }
+  
+  div span b {
+    background-color: #2998f3;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+  }
+  
+  .badge {
+    background-color: #333333;
+    color: #ffffff;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    padding: 8px 12px;
+    border-radius: 50%;
+  }
+  
